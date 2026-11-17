@@ -1,0 +1,21 @@
+# Arquivos gerados pelo Maven
+/target/
+/dependency-reduced-pom.xml
+
+# Aplicação servidor gerada pelo Maven
+/server/
+
+# Dados locais de teste e persistência
+/data/*.json
+
+# Arquivos de log
+*.log
+
+# Arquivos temporários do Windows e macOS
+Thumbs.db
+.DS_Store
+
+# Classes antigas não utilizadas na versão final
+/src/main/java/br/edu/ifpr/mcp_server/main/McpClient01Http.java
+/src/main/java/br/edu/ifpr/mcp_server/main/McpClient01Stdio.java
+/src/main/java/br/edu/ifpr/mcp_server/main/McpServer01.java
